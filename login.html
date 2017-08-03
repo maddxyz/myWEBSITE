@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="mystyle.css">
+		<link rel="stylesheet" type="text/css" media="screen and (max-width: 1024px)" href="max1024.css">
+		<link rel="stylesheet" type="text/css" media="only screen and (max-width: 600px)" href="max600.css">
+		<title> MADDNEWS - LOGIN PAGE ! </title>
+	</head>
+	<body>
+		<header >
+			<div id="logo"></div>
+		</header>
+		<nav>
+			<div id="navigation">
+				<a href="./index.html#">  HOME  </a>
+				<a href="./register.html"> Register </a>
+				<a href="./chat.html"> Chat </a>
+				<a id="navrdt" href="http://www.reddit.com/r/leagueoflegends">  LOLSubreddit  </a>
+				<a id="navfb" href="http://www.fb.com/thEnneiymy">  myFacebook  </a>
+			</div>
+		</nav>
+		<section id="content">
+			<article id="regart">
+				<div id="login-category"> Login </div>
+				<div class="art-body">
+					<h1>Login info :</h1>
+					<div id="errsucc"></div>
+					<div id="regwrapper">
+						<form id="logform">
+							<label class="reglab" >Nom d'utilisateur </label>
+							<input class="logb" type="text" id="username" name="username" maxlength="15">
+							<label class="reglab" >Mot de passe </label>
+							<input class="logb" type="password" id="userpwd" name="userpwd" maxlength="25">
+							<input id="submitinput" type="submit" value="Submit" />
+						</form>
+					</div>
+				</div>
+			</article>
+			<aside>
+				<div id="sidewrapper">
+					<div id="sidetitle">
+						Content
+					</div>
+					<div id="sidecontent">
+						<div id="text-category-side"><a href="./index.html#text-art">  Patchs  </a></div>
+						<div id="video-category-side"><a href="./index.html#video-art">  New Champions  </a></div>
+						<div id="helpful-category-side"><a href="./index.html#helpful-art">  New Skins  </a></div>
+						<div id="register-category-side"><a href="./register.html">  Become on of us.  </a></div>
+						<div id="chat-category-side"><a href="./chat.html">  Chat with us  </a></div>
+					</div>
+				</div>
+			</aside>
+			<div id="sprtor"></div>
+		</section>
+		<footer class="footer-style">
+			<div id="foowrapper">
+				<div id="subscribe">
+					<label class="reglab" >Subscribe Now </label>
+					<input class="fooin" type="text" placeholder="Your email" maxlength="50">
+					<input id="sub" type="submit" value="Subscribe" disabled="disabled" />
+				</div>
+				<div id="smedia">
+					<a class ="afoo" href="http://twitter.com/" title="become a follow on Twitter" id="twitter"></a>
+					<a class ="afoo" href="http://www.facebook.com/" title="become a fan on facebook" id="facebook"></a>
+				</div>
+			</div>
+		</footer>
+		<noscript>
+			<div id="jsalertbox">
+				<div id="alertmsgwrapper">
+					<p> This site is using javascript, to fully utilize its potential make sure it's activated . </p>
+					<button id="alertbutton"> I undertand </button>
+				</div>
+			</div>
+		</noscript>
+		<div id="copyright">
+			<span>All right reserved to ENNEIYMY IMAD. L2 INFO UNIV. BLAISE PASCAL CLERMONT-FERRAND 2016.</span>
+		</div>
+		<script src="./loginScript.js"></script>
+		<script src="./alertScript.js"></script>
+	</body>
+</html>

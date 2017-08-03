@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="mystyle.css">
+		<link rel="stylesheet" type="text/css" media="screen and (max-width: 1024px)" href="max1024.css">
+		<link rel="stylesheet" type="text/css" media="only screen and (max-width: 600px)" href="max600.css">
+		<title> MADDNEWS - CHAT PAGE ! </title>
+	</head>
+	<body>
+		<header >
+			<div id="logo"></div>
+		</header>
+		<nav>
+			<div id="navigation">
+				<a href="./index.html#">  HOME  </a>
+				<a href="./login.html"> Login </a>
+				<a href="./register.html"> Register </a>
+				<a id="navrdt" href="http://www.reddit.com/r/leagueoflegends">  LOLSubreddit  </a>
+				<a id="navfb" href="http://www.fb.com/thEnneiymy">  myFacebook  </a>
+			</div>
+		</nav>
+		<section id="content">
+			<article id="regart">
+				<div id="chat-category"> Chat </div>
+				<h1>Chat with us :</h1>
+				<div id="chatmsgBox">
+					<div id="chatmsg">  </div>
+				</div>
+				<div id="emoji-help">
+					<table >
+						<tr>
+							<td> Emoji </td>
+							<td> Code </td>
+						</tr>
+						<tr>
+							<td> <img class="emo" src="imgs/Smile.png" alt="" /> </td>
+							<td> :) </td>
+						</tr>
+						<tr>
+							<td> <img class="emo" src="imgs/Laugh.png" alt="" /> </td>
+							<td> :D </td>
+						</tr>
+						<tr>
+							<td> <img class="emo" src="imgs/XD.png" alt="" /> </td>
+							<td> XD </td>
+						</tr>
+						<tr>
+							<td> <img class="emo" src="imgs/Wink.png" alt="" /> </td>
+							<td> ;) </td>
+						</tr>
+						<tr>
+							<td> <img class="emo" src="imgs/Silly.png" alt="" /> </td>
+							<td> :P </td>
+						</tr>
+						<tr>
+							<td> <img class="emo" src="imgs/Surprised.png" alt="" /> </td>
+							<td> :O </td>
+						</tr>
+					</table>
+				</div>
+				<div id="regwrapper">
+					<form id="logform">
+						<input class="msg" type="text" id="msg" name="msg">
+						<input type="submit" id="send" value="Send" />
+					</form>
+				</div>
+			</article>
+			<aside>
+				<div id="sidewrapper">
+					<div id="sidetitle">
+						Content
+					</div>
+					<div id="sidecontent">
+						<div id="text-category-side"><a href="./index.html#text-art">  Patchs  </a></div>
+						<div id="video-category-side"><a href="./index.html#video-art">  New Champions  </a></div>
+						<div id="helpful-category-side"><a href="./index.html#helpful-art">  New Skins  </a></div>
+						<div id="register-category-side"><a href="./register.html">  Become on of us.  </a></div>
+						<div id="login-category-side"><a href="./login.html">  Login  </a></div>
+					</div>
+				</div>
+			</aside>
+		</section>
+		<footer class="footer-style">
+			<div id="foowrapper">
+				<div id="subscribe">
+					<label class="reglab" >Subscribe Now </label>
+					<input class="fooin" type="text" placeholder="Your email" maxlength="50">
+					<input id="sub" type="submit" value="Subscribe" disabled="disabled" />
+				</div>
+				<div id="smedia">
+					<a class ="afoo" href="http://twitter.com/" title="become a follow on Twitter" id="twitter"></a>
+					<a class ="afoo" href="http://www.facebook.com/" title="become a fan on facebook" id="facebook"></a>
+				</div>
+			</div>
+		</footer>
+		<noscript>
+			<div id="jsalertbox">
+				<div id="alertmsgwrapper">
+					<p> This site is using javascript, to fully utilize its potential make sure it's activated . </p>
+					<button id="alertbutton"> I undertand </button>
+				</div>
+			</div>
+		</noscript>
+		<div id="copyright">
+			<span>All right reserved to ENNEIYMY IMAD. L2 INFO UNIV. BLAISE PASCAL CLERMONT-FERRAND 2016.</span>
+		</div>
+		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script src="./chatScript.js"></script>
+		<script src="./alertScript.js"></script>
+	</body>
+</html>

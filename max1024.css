@@ -1,0 +1,107 @@
+.video-border {
+    background-image: none;
+}
+.art-imgs {
+    width: 320px;
+    height: 80px;
+    margin-left: 16%;
+}
+.splash-imgs {
+    width: 420px;
+    height: 185px;
+    margin-left: 16%;
+}
+.display-imgs {
+    width: 480px;
+    height: 85px;
+    margin-left: 11%;
+}
+#sprtor {
+    display: none;
+}
+#subscribe {
+    display: none;
+}
+#smedia {
+    margin-left: 40%;
+    display: inline-block;
+    padding-top: 1%;
+    height: 50%;
+}
+#tab {
+    margin-left: 5%;
+}
+#navigation {
+    width: 100%;
+}
+#content {
+    width: 100%
+}
+article,
+nav,
+footer {
+    width: 100%;
+    margin: 0px;
+}
+h1,
+.h1-like {
+    font-size: 1.7em;
+    text-align: left;
+    margin-left: 1%;
+}
+h2,
+.h2-like {
+    font-size: 1.4em;
+    text-align: left;
+    margin-left: 3%;
+}
+.footer-style {
+    height: 5em;
+    display: block;
+}
+#sidewrapper {
+    display: none;
+}
+#navfb,
+#navrdt {
+    display: none;
+}
+.art-body {
+    font-size: 14px;
+    padding: 4px 5px 5px;
+}
+#helpful-category,
+#text-category,
+#video-category,
+#register-category,
+#login-category,
+#chat-category {
+    padding: 6px;
+    font-size: 1.1em;
+}
+#facebook {
+    width: 64px;
+    height: 64px;
+    background-image: url("imgs/facebook-64.png");
+    margin-left: 15%;
+}
+#twitter {
+    width: 64px;
+    height: 64px;
+    background-image: url("imgs/Twitter-64.png");
+}
+#send {
+	display:inline-block;
+}
+#emoji-help{
+	margin-left:0px;
+}
+.msg{
+	margin-top:3.3%;
+	width:97%;
+}
+#chatmsgBox{
+	overflow:auto;
+	float:none;
+	height:50.5%;
+}

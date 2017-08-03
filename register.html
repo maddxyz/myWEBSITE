@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="mystyle.css">
+		<link rel="stylesheet" type="text/css" media="screen and (max-width: 1024px)" href="max1024.css">
+		<link rel="stylesheet" type="text/css" media="only screen and (max-width: 600px)" href="max600.css">
+		<title> MADDNEWS - REGISTER PAGE ! </title>
+	</head>
+	<body>
+		<header >
+			<div id="logo"> </div>
+		</header>
+		<nav>
+			<div id="navigation">
+				<a href="./index.html#">  HOME  </a>
+				<a href="./login.html"> Login </a>
+				<a id="navrdt" href="http://www.reddit.com/r/leagueoflegends">  LOLSubreddit  </a>
+				<a id="navfb" href="http://www.fb.com/thEnneiymy">  myFacebook  </a>
+			</div>
+		</nav>
+		<section id="content">
+			<article id="regart">
+				<div id="register-category"> Register</div>
+				<div class="art-body">
+					<h1>Personnal info :</h1>
+					<div id="regwrapper">
+						<form id="fdform" action="../htbin/register.py" method="post" >
+							<label class="reglab" >First name <em>*</em> </label>
+							<p id="lnp" class="notes">Error : [ Name can not be empty ]</p>
+							<input class="reg" type="text" id="lastname" name="lastname" placeholder=" ENNEIYMY " maxlength="20">
+							<label class="reglab" >Last name <em>*</em> </label>
+							<p id="fnp" class="notes">Error : [ First name can not be empty  ]</p>
+							<input class="reg" type="text" id="firstname" name="firstname" placeholder=" Imad " maxlength="20">
+							<label class="reglab" >Birthdate <em>*</em> </label>
+							<p id="bdp" class="notes">Error : [ Invalid format (day/mounth/year) or date is in the future. ]</p>
+							<input class="reg" type="text" id="birthdate" name="birthdate" placeholder=" dd/mm/yyyy " maxlength="10">
+							<label class="reglab" >Username <em>*</em> </label>
+							<p id="unp" class="notes">[ Username should be at least 6 caracteres ]</p>
+							<input class="reg" type="text" id="username" name="username" placeholder=" Rightous_Gl0ry " maxlength="15">
+							<label class="reglab" >Password <em>*</em> </label>
+							<p id="pwdp" class="notes">Error : [ Password should at least be 8 caracteres and contains at least one small lettre, capital lettre and number ]</p>
+							<input class="reg" type="password" id="userpwd" name="userpwd" placeholder=" Your password " maxlength="25">
+							<label class="reglab" >Email <em>*</em> </label>
+							<p id="emlp" class="notes">Error : [ Invalid mail adress (example@example.com) ]</p>
+							<input class="reg" type="text" id="useremail" name="useremail" placeholder=" enneiymy.i@gmail.com " maxlength="50">
+							<input id="submitinput" type="submit" value="Submit" disabled="disabled" />
+						</form>
+					</div>
+				</div>
+			</article>
+			<aside>
+				<div id="sidewrapper">
+					<div id="sidetitle">
+						Content
+					</div>
+					<div id="sidecontent">
+						<div id="text-category-side"><a href="./index.html#text-art">  Patchs  </a></div>
+						<div id="video-category-side"><a href="./index.html#video-art">  New Champions  </a></div>
+						<div id="helpful-category-side"><a href="./index.html#helpful-art">  New Skins  </a></div>
+						<div id="login-category-side"><a href="./login.html">  Login  </a></div>
+					</div>
+				</div>
+			</aside>
+			<div id="sprtor"></div>
+		</section>
+		<footer class="footer-style">
+			<div id="foowrapper">
+				<div id="subscribe">
+					<label class="reglab" >Subscribe Now </label>
+					<input class="fooin" type="text" placeholder="Your email" maxlength="50">
+					<input id="sub" type="submit" value="Subscribe" disabled="disabled" />
+				</div>
+				<div id="smedia">
+					<a class ="afoo" href="http://twitter.com/" title="become a follow on Twitter" id="twitter"></a>
+					<a class ="afoo" href="http://www.facebook.com/" title="become a fan on facebook" id="facebook"></a>
+				</div>
+			</div>
+		</footer>
+		<noscript>
+			<div id="jsalertbox">
+				<div id="alertmsgwrapper">
+					<p> This site is using javascript, to fully utilize its potential make sure it's activated . </p>
+					<button id="alertbutton"> I undertand </button>
+				</div>
+			</div>
+		</noscript>
+		<div id="copyright">
+			<span>All right reserved to ENNEIYMY IMAD. L2 INFO UNIV. BLAISE PASCAL CLERMONT-FERRAND 2016.</span>
+		</div>
+		<script src="./alertScript.js"></script>
+		<script src="./registerScript.js"></script>
+	</body>
+</html>

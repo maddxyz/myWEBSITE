@@ -1,0 +1,91 @@
+#regart {
+    width: 100%;
+    margin: 0px;
+}
+.titles h1 {
+    font-size: 1.3em;
+    text-align: left;
+    margin-left: 1%;
+}
+#copyright span {
+    display: none;
+}
+#copyright::after {
+    content: "By ENNEIYMY IMAD";
+}
+.art-body {
+    font-size: 1.2em;
+}
+img,
+.art-imgs,
+.splash-imgs,
+.display-imgs,
+.splash-imgs,
+.video-border,
+#subcscribe,
+#sidewrapper,
+#sprtor,
+#navfb,
+#navrdt,
+#emoji-help {
+    display: none;
+}
+.footer-style {
+    height: 3em;
+}
+#smedia {
+    margin-left: 40%;
+    display: inline-block;
+    padding-top: 1%;
+    height: 20%;
+}
+#facebook {
+    width: 32px;
+    height: 32px;
+    background-size: 100%;
+}
+#twitter {
+    width: 32px;
+    height: 32px;
+    background-size: 100%;
+}
+th,
+td,
+tr {
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+video {
+    width: 250px;
+    height: 120px;
+    margin: 0;
+    padding: 0;
+}
+#altlink {
+    display: inline-block;
+}
+#tab {
+    margin-left: 5%;
+}
+#send {
+    display: inline-block;
+    margin-top: 1%;
+}
+#chatmsgBox {
+    width: 99%;
+    margin-right:1%;
+}
+#regwrapper{
+    width: 99%;
+    margin: 0;
+}
+#fdform{
+    width: 99%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+blockquote{
+    margin-left: 2px;
+}
